@@ -1,4 +1,4 @@
-# parley
+# parley app
 
 a social media platform dedicated to intellectually discussing ideas based on logic and reason rather than emotional bias.
 
@@ -8,23 +8,23 @@ the goal is to give those a place to propose, debate, and challenge ideas in a r
 plague of modern society that villainizes any opposing views.
 
 
+stack:
 
-notes:
+    Flutter for UI
 
-stack
-    - Flutter for UI
-    - Supabase for database
-    - Heroku for hosting SA API
+    Supabase for database
 
+    Heroku for hosting SA API
 
 
-alternative:
+
+alternative stack:
 
 
     postgres db on AWS
 
     hasura graphQL api
 
-    apollo to manage graphQL fron front end
+    apollo to manage graphQL from front end
 
     microservices for business logic
