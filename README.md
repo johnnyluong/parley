@@ -6,3 +6,25 @@ user content is automatically moderated by a sentiment analysis engine that must
 
 the goal is to give those a place to propose, debate, and challenge ideas in a reasonable manner for the sake of finding the truth in contrast
 plague of modern society that villainizes any opposing views.
+
+
+
+notes:
+
+stack
+    - Flutter for UI
+    - Supabase for database
+    - Heroku for hosting SA API
+
+
+
+alternative:
+
+
+    postgres db on AWS
+
+    hasura graphQL api
+
+    apollo to manage graphQL fron front end
+
+    microservices for business logic
