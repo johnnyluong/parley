@@ -28,3 +28,19 @@ alternative stack:
     apollo to manage graphQL from front end
 
     microservices for business logic
+
+
+
+TODOS:
+
+- after creating an account, it requires email verification
+    - find a work around (clicking link in phone should return to app)
+    - create a website that the link will redirect to and validate the verification
+- creating new account should prompt user to check email and verify it via the link then navigate to sign in
+    - read docs on email verification
+    - create landing page for account confirmation -> redirect to complete profile
+- enable google sign in
+
+reference
+
+https://github.com/FatumaA/supa_auth_flutter
