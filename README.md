@@ -1,46 +1,18 @@
 # parley app
 
-a social media platform dedicated to intellectually discussing ideas based on logic and reason rather than emotional bias.
+A social media platform dedicated to intellectually discussing ideas based on logic and reason rather than emotional bias.
+Currently a work in progress.
 
-user content is automatically moderated by a sentiment analysis engine that must approve content before it is accepted.
+#the problem
+Modern public discourse (in the political arena) has become unproductive in recent history as those on the far side of either ends of the spectrum refuse acknowledge any proposotion that opposes their own. Some analyses on this have concluded that this is the result of individuals associating their ideas with themselse, thus they will not tolerate anything that challenges their ideas. Ideas are meant to be debated between opposing views with logic and sound reasoning in pursuit of a greater truth, but these modern trends go against that.
 
-the goal is to give those a place to propose, debate, and challenge ideas in a reasonable manner for the sake of finding the truth in contrast
-plague of modern society that villainizes any opposing views.
+#the solution
+Parley is a platform that enables users to discuss all kinds of ideas (no necessarily political) with the intention that one's ideas are meant to be challenged for the sake of being improved. Content on the platform is moderated by a sentiment analysis engine powered by [VaderSentiment]. The moderator requires the user's posts and comments to be emotionally neutral - the content must have a neutrality rating of at least 0.95. Any less than that and the content would lean towards a positive or negative bias. This goal is to promote discourse and debate using evidence and logical reasoning.
 
+Here are some references:
+[Tim Urban on Political Discourse]
+[Paul Graham on Conformism]
 
-stack:
-
-    Flutter for UI
-
-    Supabase for database
-
-    Heroku for hosting SA API
-
-
-
-alternative stack:
-
-
-    postgres db on AWS
-
-    hasura graphQL api
-
-    apollo to manage graphQL from front end
-
-    microservices for business logic
-
-
-
-TODOS:
-
-- after creating an account, it requires email verification
-    - find a work around (clicking link in phone should return to app)
-    - create a website that the link will redirect to and validate the verification
-- creating new account should prompt user to check email and verify it via the link then navigate to sign in
-    - read docs on email verification
-    - create landing page for account confirmation -> redirect to complete profile
-- enable google sign in
-
-reference
-
-https://github.com/FatumaA/supa_auth_flutter
+[1]: https://github.com/FatumaA/supa_auth_flutter "VaderSentiment"
+[2]: https://www.youtube.com/watch?v=ivDwzBYsED4 "Tim Urban on Political Discourse"
+[3]: http://www.paulgraham.com/conformism.html "Paul Graham on Conformism"
