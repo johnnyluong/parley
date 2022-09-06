@@ -20,7 +20,7 @@ Lex Fridman's message illustrates the spirit of the platform rather accurately:
 
 > Labels lessen our capacity for empathy and free thought.
 
-### Here are some references:
+### here are some references to ideas previously mentioned:
 
 [Tim Urban on Political Discourse](https://www.youtube.com/watch?v=ivDwzBYsED4)
 
