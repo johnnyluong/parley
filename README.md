@@ -11,9 +11,12 @@ Parley is a platform that enables users to discuss all kinds of ideas (no necess
 
 Lex Fridman's message illustrates the spirit of the platform rather accurately:
 > I am not right wing or left wing. I am a human being who listens, empathizes, learns, and thinks.
-  > People want to assign labels to each other so they can judge without trying to understanding a person.
-  > Labels lessen our capacity for empathy and free thought.
+
+> People want to assign labels to each other so they can judge without trying to understanding a person.
+
+> Labels lessen our capacity for empathy and free thought.
 
 Here are some references:
 [Tim Urban on Political Discourse](https://www.youtube.com/watch?v=ivDwzBYsED4)
+
 [Paul Graham on Conformism](http://www.paulgraham.com/conformism.html)
